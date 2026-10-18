@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background_canada_2024__by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2Y1NjJhYWY0LTVkYmItNDYwMy1hMzJiLTZlZjZjMjIzMDEzNi9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FScrpAAFnKqBVKwe2syeiOww6mfH6avq-DRHZ_uFVNw");
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 20px 0;
+}
+
+#header-logo {
+    width: 170px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.language-box{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 14px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #5e5e5e;
+    border-radius: 5px;
+}
+
+.language-box span{
+    font-size: 8px;
+}
+
+.language-box select{
+    background-color: #111;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+#loginButton{
+    background-color: #e50914;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 23px;
+    font-weight: bold;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    text-align: center;
+    max-width: 570px;
+    margin-top: 180px;
+}
+
+.text h1{
+    font-size: 55px;
+}
+
+.text h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.text-input input{
+    padding: 20px, 20px;
+    font-size: 17px;
+    width: 45%;
+    border-radius: 5px;
+    border: 1px solid #606061;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.text-input button{
+    width: 55%;
+    background-color: #e50914;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px, 10px;
+    border-radius: 5px;
+    border: 0;
+}
+

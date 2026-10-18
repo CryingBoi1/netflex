@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(55, 0, 0, 1), rgba(0, 0, 0, 1));
+    background-size: cover;
+    background-position: center;
+}
+
+#header-logo {
+    width: 170px;
+}
+
+header{
+    color: rgba(55, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 20px 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    text-align: left;
+    max-width: 460px;
+    margin-top: 180px;
+}
+
+.text h1{
+    font-size: 32px;
+}
+
+.text h5{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: rgb(82, 82, 82);
+}
+
+.text-input{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.text-input input{
+    padding: 20px, 20px;
+    font-size: 17px;
+    padding: 20px, 40px;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #606061;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.text-input button{
+    height: 60px;
+    width: 100%;
+    background-color: #e50914;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px, 40px;
+    border-radius: 5px;
+    border: 0;
+}
